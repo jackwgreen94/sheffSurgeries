@@ -96,4 +96,9 @@ class DoctorController {
             '*'{ render status: NOT_FOUND }
         }
     }
+
+String toString(){
+    return doctorName
+    }
+
 }
