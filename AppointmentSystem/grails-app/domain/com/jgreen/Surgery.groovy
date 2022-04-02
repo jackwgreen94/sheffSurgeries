@@ -11,6 +11,12 @@ class Surgery {
    double openingTime
    Boolean registeringNewPatients
 
+   String toString(){
+
+  return name
+  
+}
+
 
  static constraints = {
    
@@ -26,5 +32,7 @@ class Surgery {
     }
 
 static hasMany = [doctors:Doctor, receptionists:Receptionist, nurses:Nurse, appointments:Appointment, patients:Patient]
+
+
 
 }

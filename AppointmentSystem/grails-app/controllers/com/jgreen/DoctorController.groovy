@@ -97,8 +97,6 @@ class DoctorController {
         }
     }
 
-String toString(){
-    return doctorName
-    }
+
 
 }

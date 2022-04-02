@@ -8,6 +8,12 @@ class Appointment {
    double appDuration
    int rooNumber
 
+   String toString(){
+
+  return rooNumber
+  
+}
+
  static constraints = {
 
   
@@ -18,7 +24,8 @@ class Appointment {
 
     }
 
-static belongsTo = [doctor:Doctor, patient:Patient] 
-static hasMany = [surgeries:Surgery] 
+static belongsTo = [doctor:Doctor, patient:Patient, surgeries:Surgery] 
+
+
 
 }

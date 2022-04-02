@@ -8,6 +8,12 @@ class Receptionist {
    String recepPassword
    int recepPhone
 
+   String toString(){
+
+  return recepName
+  
+}
+
  static constraints = {
 
    recepName(blank:false, nullable:false)
@@ -19,5 +25,7 @@ class Receptionist {
     }
 
 static belongsTo = [surgery:Surgery]
+
+
 
 }

@@ -11,7 +11,7 @@
         <ul class="dropdown-menu">
             <li class="dropdown-item"><a href="/appointment/index">com.jgreen.AppointmentController</a></li>
             <li class="dropdown-item"><a href="/doctor/index">com.jgreen.DoctorController</a></li>
-            <li class="dropdown-item"><<a href="/nurse/index">com.jgreen.NurseController</a>/li>
+            <li class="dropdown-item"><a href="/nurse/index">com.jgreen.NurseController</a>/li>
             <li class="dropdown-item"><a href="/patient/index">com.jgreen.PatientController</a></li>
             <li class="dropdown-item"><a href="/prescription/index">com.jgreen.PrescriptionController</a></li>
             <li class="dropdown-item"><a href="/receptionist/index">com.jgreen.ReceptionistController</a></li>
