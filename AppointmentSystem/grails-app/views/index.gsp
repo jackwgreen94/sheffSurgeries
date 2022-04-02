@@ -2,26 +2,20 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Sheffield Surgeries</title>
 </head>
 <body>
 <content tag="nav">
     <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#">Environment: ${grails.util.Environment.current.name}</a></li>
-            <li class="dropdown-item"><a href="#">App profile: ${grailsApplication.config.grails?.profile}</a></li>
-            <li class="dropdown-item"><a href="#">App version:
-                <g:meta name="info.app.version"/></a>
-            </li>
-            <li role="separator" class="dropdown-divider"></li>
-            <li class="dropdown-item"><a href="#">Grails version:
-                <g:meta name="info.app.grailsVersion"/></a>
-            </li>
-            <li class="dropdown-item"><a href="#">Groovy version: ${GroovySystem.getVersion()}</a></li>
-            <li class="dropdown-item"><a href="#">JVM version: ${System.getProperty('java.version')}</a></li>
-            <li role="separator" class="dropdown-divider"></li>
-            <li class="dropdown-item"><a href="#">Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</a></li>
+            <li class="dropdown-item"><a href="/appointment/index">com.jgreen.AppointmentController</a></li>
+            <li class="dropdown-item"><a href="/doctor/index">com.jgreen.DoctorController</a></li>
+            <li class="dropdown-item"><<a href="/nurse/index">com.jgreen.NurseController</a>/li>
+            <li class="dropdown-item"><a href="/patient/index">com.jgreen.PatientController</a></li>
+            <li class="dropdown-item"><a href="/prescription/index">com.jgreen.PrescriptionController</a></li>
+            <li class="dropdown-item"><a href="/receptionist/index">com.jgreen.ReceptionistController</a></li>
+            <li class="dropdown-item"><a href="/surgery/index">com.jgreen.SurgeryController</a></li>
         </ul>
     </li>
     <li class="dropdown">
@@ -52,17 +46,15 @@
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Welcome to Sheffield Surgeries</h1>
 
             <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
+                The premium medical service in Sheffield and surrounding areas.
             </p>
+        
 
             <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
+                <h2>Services:</h2>
                 <ul>
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
                         <li class="controller">
