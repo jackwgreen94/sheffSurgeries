@@ -19,6 +19,7 @@ divid img { max-width: 250px; }
 <div class="row" style="overflow:hidden;" }>
  <asset:image src="Image2.jpg" style="width:200px; height:350px;"/>
  <g:loginToggle />
+ <g:loginToggle1 />
  </div>
 
 <g:layoutBody/>
