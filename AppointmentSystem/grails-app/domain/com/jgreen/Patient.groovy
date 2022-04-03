@@ -8,7 +8,7 @@ class Patient {
    Date patientDob
    int patientID
    Date dateRegistered
-   int patientPhone
+   String patientPhone
 
    String toString(){
 
