@@ -26,7 +26,7 @@
                     <h3>Add New Doctor</h3>
                     <p>Register new doctor.</p>
                     <button type="button" class="btn btn-success">
-                    <g:link controller="Nurse" action="create">Nurse</g:link>
+                    <g:link controller="Doctor" action="create">Doctor</g:link>
                     </button>
                     </div>
             

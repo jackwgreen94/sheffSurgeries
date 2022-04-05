@@ -18,10 +18,10 @@
 
                 <tr class="prop">
                   <td class="name">
-                    <label for="username">User Name:</label>
+                    <label for="doctoremail">Email:</label>
                   </td>
                   <td class="value">
-                    <input type="text" id="username" name="username" value="">
+                    <input type="text" id="doctoremail" name="doctoremail" value="">
                   </td></tr>
                 <tr class="prop">
                   <td class="name">
