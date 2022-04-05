@@ -2,23 +2,30 @@ package com.jgreen
 
 class Appointment {
 
-  
+   int appID
    Date appDay
-   double appTime
-   double appDuration
-   int rooNumber
+   int appTime
+   int appDuration
+   int roomNumber
+
+   String toString(){
+
+  return appID
+  
+}
 
  static constraints = {
 
-  
-   appTime(blank:false, nullable:false, size:09.00..16.30)
+   appID(blank:false, nullable:false, unique:true)
+   appTime(blank:false, nullable:false range:0930..1700)
    appDay(blank:false, nullable:false)
-   appDuration(blank:false, nullable:false, maxSize:30)
-   rooNumber(blank:false, nullable:false)
+   appDuration(blank:false, nullable:false, max:30)
+   roomNumber(blank:false, nullable:false)
 
     }
 
-static belongsTo = [doctor:Doctor, patient:Patient] 
-static hasMany = [surgeries:Surgery] 
+static belongsTo = [doctor:Doctor, patient:Patient, surgeries:Surgery] 
+
+
 
 }

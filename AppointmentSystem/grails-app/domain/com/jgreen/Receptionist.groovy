@@ -4,20 +4,28 @@ class Receptionist {
 
    String recepName
    String recepEmail
-   String recepUsername
-   String recepPassword
-   int recepPhone
+   String username
+   String password
+   String recepPhone
+
+   String toString(){
+
+  return recepName
+  
+}
 
  static constraints = {
 
    recepName(blank:false, nullable:false)
    recepEmail(blank:false, nullable:false, email:true)
-   recepUsername(blank:false, nullable:false, unique:true)
-   recepPassword(blank:false, nullable:false)
+   username(blank:false, nullable:false, unique:true)
+   password(blank:false, nullable:false)
    recepPhone(blank:false, nullable:false)
 
     }
 
 static belongsTo = [surgery:Surgery]
+
+
 
 }

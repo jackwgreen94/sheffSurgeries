@@ -5,11 +5,17 @@ class Surgery {
    String name
    String address
    String postcode
-   int telephone
+   String telephone
    int numberOfPatients
    String description
    double openingTime
    Boolean registeringNewPatients
+
+   String toString(){
+
+  return name
+  
+}
 
 
  static constraints = {
@@ -26,5 +32,7 @@ class Surgery {
     }
 
 static hasMany = [doctors:Doctor, receptionists:Receptionist, nurses:Nurse, appointments:Appointment, patients:Patient]
+
+
 
 }

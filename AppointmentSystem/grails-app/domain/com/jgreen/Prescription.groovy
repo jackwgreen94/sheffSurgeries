@@ -2,6 +2,7 @@ package com.jgreen
 
 class Prescription {
 
+   String patientName
    String pharmacyName
    int prescriptionNumber
    String medicine
@@ -10,8 +11,15 @@ class Prescription {
    Date dateIssued
    Boolean patientPaying
 
+   String toString(){
+
+  return prescriptionNumber
+  
+}
+
  static constraints = {
 
+   patientName(blank:false, nullable:false)
    pharmacyName(blank:false, nullable:false)
    prescriptionNumber(blank:false, nullable:false)
    medicine(blank:false, nullable:false)
@@ -23,5 +31,7 @@ class Prescription {
     }
 
 static belongsTo = [doctor:Doctor, patient:Patient]
+
+
 
 }
