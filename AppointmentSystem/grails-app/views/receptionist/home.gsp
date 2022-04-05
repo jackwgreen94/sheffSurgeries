@@ -62,6 +62,14 @@
                         </button>
                         </div>
 
+                    <div class="seventh">
+                        <h3>Search Patients</h3>
+                        <p>Search for registered patients.</p>
+                        <button type="button" class="btn btn-success">
+                        <g:link controller="Receptionist" action="advSearch">SearchPatient</g:link>
+                        </button>
+                        </div>
+
                    
 
 

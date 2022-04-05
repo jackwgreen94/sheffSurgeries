@@ -45,6 +45,14 @@
                     <g:link controller="Appointment" action="index">Appointment</g:link>
                     </button>
                     </div>
+
+                <div class="fifth">
+                    <h3>Search Prescriptions</h3>
+                    <p>Search current prescriptions.</p>
+                    <button type="button" class="btn btn-success">
+                    <g:link controller="Doctor" action="advSearch">Prescription</g:link>
+                    </button>
+                    </div>
             
                 
 

@@ -17,7 +17,7 @@ class Appointment {
  static constraints = {
 
    appID(blank:false, nullable:false, unique:true)
-   appTime(blank:false, nullable:false range:0930..1700)
+   appTime(blank:false, nullable:false, range:930..1700)
    appDay(blank:false, nullable:false)
    appDuration(blank:false, nullable:false, max:30)
    roomNumber(blank:false, nullable:false)
