@@ -2,10 +2,10 @@ package com.jgreen
 
 class Appointment {
 
-   String appID
+   int appID
    Date appDay
    int appTime
-   double appDuration
+   int appDuration
    int roomNumber
 
    String toString(){
@@ -16,10 +16,10 @@ class Appointment {
 
  static constraints = {
 
-   appID(blank:false, nullable:false)
-   appTime(blank:false, nullable:false, size:09.30..16.30)
+   appID(blank:false, nullable:false, unique:true)
+   appTime(blank:false, nullable:false range:0930..1700)
    appDay(blank:false, nullable:false)
-   appDuration(blank:false, nullable:false, maxSize:30)
+   appDuration(blank:false, nullable:false, max:30)
    roomNumber(blank:false, nullable:false)
 
     }

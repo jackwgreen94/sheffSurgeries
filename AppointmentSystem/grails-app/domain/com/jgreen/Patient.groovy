@@ -28,8 +28,8 @@ class Patient {
 
     }
 
-static hasMany = [prescriptions:Prescription, surgeries:Surgery, doctors:Doctor]
-
+static hasMany = [prescriptions:Prescription, surgeries:Surgery]
+static belongsTo = [doctors:Doctor]
 
 
 }

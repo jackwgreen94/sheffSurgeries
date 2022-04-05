@@ -6,12 +6,13 @@ input, select, textarea {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
+    color: green;
 }
 
 /* BASE LAYOUT */
 
 html {
-    background-color: #ddd;
+    background-color: #0F8B8D;
     background-image: -moz-linear-gradient(center top, #aaa, #ddd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
     background-image: linear-gradient(to bottom, #aaa, #ddd);
@@ -25,7 +26,7 @@ html {
 }
 
 html.no-cssgradients {
-    background-color: #aaa;
+    background-color: #0F8B8D;
 }
 
 html * {
@@ -33,7 +34,7 @@ html * {
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: #143642;
     color: #333333;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
     -moz-box-shadow: 0 0 0.3em #424649;
@@ -71,10 +72,12 @@ img {
 }
 
 .content {
+    background-color: #0F8B8D;
 }
 
 .content h1 {
-    border-bottom: 1px solid #CCCCCC;
+    background-color: #0F8B8D;
+    border-bottom: 1px solid #DAD2D8;
     padding: 0 0 1em 0;
 }
 
@@ -576,7 +579,7 @@ a.skip {
 }
 
 .grails-logo-container {
-    background: #7c7c7c no-repeat 50% 30%;
+    background: #0F8B8D no-repeat 50% 30%;
     margin-bottom: 20px;
     color: white;
     height:300px;

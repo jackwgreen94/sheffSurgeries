@@ -2,6 +2,9 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
+
+    <asset:stylesheet src="main.css"/>
+
     <title>Sheffield Surgeries</title>
 </head>
 <body>
@@ -19,7 +22,7 @@
             </p>
             
             <div class="row" style="overflow:hidden;">
-                   <asset:image src="Image1big.jpg"/>
+                   <asset:image src="Image1big.jpg" style="width:600px; height:450px;"/>
                 </div>
         
 

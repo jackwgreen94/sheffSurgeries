@@ -10,7 +10,7 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
 
     <asset:stylesheet src="application.css"/>
-divid img { max-width: 250px; }
+
     <g:layoutHead/>
 </head>
 

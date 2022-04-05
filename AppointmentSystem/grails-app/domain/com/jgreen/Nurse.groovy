@@ -24,8 +24,7 @@ class Nurse {
 
     }
 
-static belongsTo = [surgery:Surgery]
-static hasMany = [doctor:Doctor]
+static belongsTo = [surgery:Surgery, doctor:Doctor]
 
 
 
