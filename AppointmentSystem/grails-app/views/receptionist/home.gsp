@@ -8,7 +8,7 @@
 <body>
 
     <div class="row" style="overflow:hidden;">
-        <asset:image src="Image1big.jpg" style="width:600px; height:450px;"/>
+        <asset:image src="Image1big.jpg" class="center"; style="width:600px; height:450px;"/>
      </div>
 
 

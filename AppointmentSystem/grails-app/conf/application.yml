@@ -117,12 +117,12 @@ environments:
             url:  jdbc:mysql://localhost:3306/surgeries
     test:
         dataSource:
-            dbCreate: create
-            url: 
+            dbCreate: update
+            url: jdbc:mysql://localhost:3306/surgtest
     production:
         dataSource:
-            dbCreate: create
-            url: 
+            dbCreate: none
+            url: jdbc:mysql://localhost:3306/surgproduction
             properties:
                 jmxEnabled: true
                 initialSize: 5
