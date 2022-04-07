@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE LAYOUT */
 
 html {
-    background-color: #0F8B8D;
+    background-color:#f2f2f2;
     background-image: -moz-linear-gradient(center top, #aaa, #ddd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
     background-image: linear-gradient(to bottom, #aaa, #ddd);
@@ -25,8 +25,10 @@ html {
     box-sizing: border-box;
 }
 
+
+
 html.no-cssgradients {
-    background-color: #0F8B8D;
+    background-color: #b4b4b4;
 }
 
 html * {
@@ -34,7 +36,7 @@ html * {
 }
 
 body {
-    background-color: #143642;
+    background-color: #95ceba;
     color: #333333;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
     -moz-box-shadow: 0 0 0.3em #424649;

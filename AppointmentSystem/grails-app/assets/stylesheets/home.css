@@ -1,9 +1,19 @@
 .first{background-color:#9FFF33; margin-left:1%;}
 .second{background-color:#C2D506; margin-left:1%;}
+.third{background-color:#9FFF33; margin-left:1%;}
+.fourth{background-color:#C2D506; margin-left:1%;}
+.fifth{background-color:#9FFF33; margin-left:1%;}
+.sixth{background-color:#C2D506; margin-left:1%;}
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.btn btn-success{margin-left: 1%;}
 body, html {
     
-    
-    margin-top:1%;
     }
 
